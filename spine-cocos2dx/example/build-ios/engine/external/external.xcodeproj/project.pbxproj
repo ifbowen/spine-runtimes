@@ -1,0 +1,2989 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		17F95BA856564B789690C1CA /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4E284054B2FC4E1ABE7E6434 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				08A8F3561246EAC51CB46DBE /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				88D70F1CAB974645A3C590A7 /* PBXTargetDependency */,
+				F79120AFAF3A488D9E824BC6 /* PBXTargetDependency */,
+				972787746A6A41A69DD71569 /* PBXTargetDependency */,
+				C7E8AD2BE6D44A688F5545E9 /* PBXTargetDependency */,
+				FE08F39992A044EEA465AC69 /* PBXTargetDependency */,
+				C2324B9119464A4EB4EDEB6D /* PBXTargetDependency */,
+				523ECB1F27DE4400BDB500B0 /* PBXTargetDependency */,
+				AD3C83FE9E004FCD862DF382 /* PBXTargetDependency */,
+				6CF404782B754E609D9188B6 /* PBXTargetDependency */,
+				635D9BECAA9C4DF189702CB4 /* PBXTargetDependency */,
+				33A77A805BF34C13B98842A1 /* PBXTargetDependency */,
+				A12197A67BAF44F085C5DB39 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		F845CFE0827441949FCAC9DC /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 18C1EC3FDF474262BC1AB048 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				83E574F3C88B82E4ED329B93 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0142E5EFB3D8434DAF57387F /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/xxtea/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 1B879E22B5504A78BD8DDAFE /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/xxtea/CMakeLists.txt */; };
+		0363EFAD3C104B8E9CBBA2CA /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = BE636FB6FF3D44FD9310D93A /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/Info.plist */; };
+		03E33D09EBEE4AD18F4E27C9 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/engine/external/unzip/CMakeFiles/ext_unzip.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 445D8B0F403A4BBD97B491A2 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/engine/external/unzip/CMakeFiles/ext_unzip.dir/Info.plist */; };
+		070FBB4EFEDD4684AA313F5C /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/poly2tri/common/shapes.cc */ = {isa = PBXBuildFile; fileRef = 0666354A937A40BFA260590C /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/poly2tri/common/shapes.cc */; };
+		0CBD88B0E04B4D709EAE32DA /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/xxhash/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 8F150B36D3CF43B6992F1114 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/xxhash/CMakeLists.txt */; };
+		128426DD92D9400FA76496FC /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */ = {isa = PBXBuildFile; fileRef = 31EFDC15A14041BF97D68CE9 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */; };
+		146912D5B84A42109CAD9022 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/poly2tri/sweep/sweep.cc */ = {isa = PBXBuildFile; fileRef = AA58F568BC7D4BB9903D8F61 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/poly2tri/sweep/sweep.cc */; };
+		1E8EA1BAC1BE4155A96E21E5 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/empty.cpp */ = {isa = PBXBuildFile; fileRef = 271FD72CAEBE466D93CB5997 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/empty.cpp */; };
+		21CFFF38DEA24AB89C80B755 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */ = {isa = PBXBuildFile; fileRef = 6E138DBBD5134251A4B97172 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */; };
+		2BF87C91F5994E1ABE2C1604 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/Detour/DetourAlloc.cpp */ = {isa = PBXBuildFile; fileRef = 6D0B462FD12F45C283A22958 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/Detour/DetourAlloc.cpp */; };
+		32A0E0F9F4D94002972388C2 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/poly2tri/sweep/cdt.cc */ = {isa = PBXBuildFile; fileRef = A030A4A2C9A443BEAC3F75FF /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/poly2tri/sweep/cdt.cc */; };
+		37087420204B46619EBD8229 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/edtaa3func/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 6C15D588218C42BDAD09D160 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/edtaa3func/CMakeLists.txt */; };
+		39EE9FD826C34E799BE78CAF /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/xxhash/xxhash.c */ = {isa = PBXBuildFile; fileRef = B7FB9C7A70F847A3ADACCD12 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/xxhash/xxhash.c */; };
+		3F49B7E5FDB6478092037320 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/unzip/unzip.cpp */ = {isa = PBXBuildFile; fileRef = C4C6982B649E48A9B188D50A /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/unzip/unzip.cpp */; };
+		3F5A2531D4DB42908D5532DF /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */ = {isa = PBXBuildFile; fileRef = 1BB3099990AE4CBA8BDC7ED2 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */; };
+		42E177D45BBF476A90BA7D09 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */ = {isa = PBXBuildFile; fileRef = 643A3125D29242A6A2D9BED2 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */; };
+		458A6A9AE85C469A950A5BE9 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */ = {isa = PBXBuildFile; fileRef = 50F45CD8482D43438F370BBB /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */; };
+		465910BDB8A447A0B871C949 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */ = {isa = PBXBuildFile; fileRef = 5CE4320F9BEE4CF1BA61DDBE /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */; };
+		52E818A276264988A487942C /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/poly2tri/sweep/advancing_front.cc */ = {isa = PBXBuildFile; fileRef = D41F32AC2E984A74BB34E6AB /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/poly2tri/sweep/advancing_front.cc */; };
+		5B37A980875344F1B756B2C2 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/fastlz/fastlz.c */ = {isa = PBXBuildFile; fileRef = B652AA169103434BBD5C4FE9 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/fastlz/fastlz.c */; };
+		66334626B82C4AFA8F55A6C8 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 646321F981334978AE3E8C50 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/Info.plist */; };
+		681DBD13A3E04F3881439BFD /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/engine/external/clipper/CMakeFiles/ext_clipper.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = CEE75F3343E041299870C42A /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/engine/external/clipper/CMakeFiles/ext_clipper.dir/Info.plist */; };
+		6AB00E1703014EB0BE6E3283 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/Detour/DetourNavMesh.cpp */ = {isa = PBXBuildFile; fileRef = 92A483929CEF41FE9BEF92CA /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/Detour/DetourNavMesh.cpp */; };
+		6C1E0C42063D43C499EA86D6 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/md5/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = E2A05A2D06CD4729A478E26F /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/md5/CMakeLists.txt */; };
+		6C26350E8F1046559F940805 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/Detour/DetourCommon.cpp */ = {isa = PBXBuildFile; fileRef = 808618656AD443AE81A389AA /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/Detour/DetourCommon.cpp */; };
+		703D735077B04FF191F4DD86 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/engine/external/recast/CMakeFiles/ext_recast.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = D38BE149AB1746F8A59C9AD9 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/engine/external/recast/CMakeFiles/ext_recast.dir/Info.plist */; };
+		7CD8A63B9CCB444CBC612EA9 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */ = {isa = PBXBuildFile; fileRef = 53B0BFEFAB1A43EEBB0A5FF3 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */; };
+		7DE5254351FE4F6ABB5023D1 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/xxtea/xxtea.cpp */ = {isa = PBXBuildFile; fileRef = 098604F6D97A4F3982E29156 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/xxtea/xxtea.cpp */; };
+		7E76AF516AD44F33878DE39E /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/unzip/ioapi.cpp */ = {isa = PBXBuildFile; fileRef = E85394E009F548C68FB0DFFC /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/unzip/ioapi.cpp */; };
+		813A7FA05AC24A8E868AA471 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/poly2tri/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = F2D21D0B19AF4B9A8802F421 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/poly2tri/CMakeLists.txt */; };
+		827ABC2650274ADDBDF6FC22 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/engine/external/md5/CMakeFiles/ext_md5.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 163DA041AA1146A986CB588D /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/engine/external/md5/CMakeFiles/ext_md5.dir/Info.plist */; };
+		8453CDD9400949E9823F2FEF /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */ = {isa = PBXBuildFile; fileRef = FDD2E7A357B848F5928C2CD5 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */; };
+		8DE96813F29143C7B950351C /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */ = {isa = PBXBuildFile; fileRef = 1C044C936133411089F0CCDE /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */; };
+		99EDE0EC482743159C79912A /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/engine/external/CMakeFiles/external.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 8E02DA4406A54EAC83E74F70 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/engine/external/CMakeFiles/external.dir/Info.plist */; };
+		A3262F04483948A2AB0F7302 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */ = {isa = PBXBuildFile; fileRef = C4D939FB9CCC42C5A267CDD5 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */; };
+		A4852D5D6FA44009AABB1F6F /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/Detour/DetourNode.cpp */ = {isa = PBXBuildFile; fileRef = 6D27FB8DDE8A4115B1EA6584 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/Detour/DetourNode.cpp */; };
+		A8E0A3D334CE400B969F8F10 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/unzip/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = B5925441CA2447E3A9494C61 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/unzip/CMakeLists.txt */; };
+		AFA22A87B1F04F4B8B138042 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/unzip/ioapi_mem.cpp */ = {isa = PBXBuildFile; fileRef = 0955D529C5874524B3B6634A /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/unzip/ioapi_mem.cpp */; };
+		AFB166E6362B467D9C025E6C /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/engine/external/xxtea/CMakeFiles/ext_xxtea.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = EC3CE23B00544587AF1D1002 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/engine/external/xxtea/CMakeFiles/ext_xxtea.dir/Info.plist */; };
+		B9C0D81D022240598836B534 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/tinyxml2/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 617BCDC4CE394A9EBAE5BA81 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/tinyxml2/CMakeLists.txt */; };
+		B9E60B101C534B48ACB90457 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/md5/md5.c */ = {isa = PBXBuildFile; fileRef = 8176C2206B534D4CBAD610F5 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/md5/md5.c */; };
+		BB3BA443E93C476EBA9CD1FC /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 0A641FC486664DE1821C08FD /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/CMakeLists.txt */; };
+		BCA53569184E4299B8CAB6F0 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */ = {isa = PBXBuildFile; fileRef = 1A9C14AE367D48B29CA21C22 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */; };
+		C191EF5C63AB486E9D050351 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/ConvertUTF/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = C6C3E1B08E8041DFA161A12E /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/ConvertUTF/CMakeLists.txt */; };
+		D93AC7CEFC114148A8EB24E5 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */ = {isa = PBXBuildFile; fileRef = 9C7FD87E858848F99672BF26 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */; };
+		DE1064F9FCF54C699D6DFF5B /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/clipper/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 5F5332FAD659482987380595 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/clipper/CMakeLists.txt */; };
+		DE64844D9A7847B8993100CC /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/poly2tri/sweep/sweep_context.cc */ = {isa = PBXBuildFile; fileRef = 9F9B0E9D47AD4EA8A424E9C7 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/poly2tri/sweep/sweep_context.cc */; };
+		DECE873807654A83BDA8CF9C /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = DC725851E4BF4632B737CC16 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/CMakeLists.txt */; };
+		DEF9B5C0E37E47F1BDB622A1 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/tinyxml2/tinyxml2.cpp */ = {isa = PBXBuildFile; fileRef = 8BFBAE72C5664D16B1181F19 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/tinyxml2/tinyxml2.cpp */; };
+		DF5714EAAB464F8B976CC0E9 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 5A2AD325CF3A4A40A1B5DD02 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/Info.plist */; };
+		E524D6A564A04C72851A9D8D /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/clipper/clipper.cpp */ = {isa = PBXBuildFile; fileRef = 437FDE13972B43EDB6B9FFC4 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/clipper/clipper.cpp */; };
+		E75FB0B046C740B4B4D11962 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/engine/external/tinyxml2/CMakeFiles/ext_tinyxml2.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 3A5DF113439244ADA7177284 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/engine/external/tinyxml2/CMakeFiles/ext_tinyxml2.dir/Info.plist */; };
+		EE66C6CC2B764687A3913475 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */ = {isa = PBXBuildFile; fileRef = DEBAF49378334C92929364CA /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */; };
+		EF185A895E444C36BCBA2521 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/engine/external/xxhash/CMakeFiles/ext_xxhash.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = EF4A18B7D2F24D80B59F6F90 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/engine/external/xxhash/CMakeFiles/ext_xxhash.dir/Info.plist */; };
+		F88FAC0283614DE388965CC9 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/edtaa3func/edtaa3func.cpp */ = {isa = PBXBuildFile; fileRef = 5B194FBCFC9E4E268D778BA4 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/edtaa3func/edtaa3func.cpp */; };
+		FD8F0A5736FF494F986EFF43 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/ConvertUTF/ConvertUTF.c */ = {isa = PBXBuildFile; fileRef = 67A598140EC54EC69E00992C /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/ConvertUTF/ConvertUTF.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		0CA0DBB464514E4287919B88 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		39D9FA9F0A1A43E9A5A6DC64 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		5074AC6BD9A848F0B78B4FC0 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		6005D7256F1048B8A5A15BD9 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		0ADF0DE0757B48F0A42441F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24B030C67A0D40439468EF79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DCEC4991C854A78B6298D42;
+			remoteInfo = ext_edtaa3func;
+		};
+		0E7F4FB91CAB4CD2AEC7EDEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24B030C67A0D40439468EF79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F845CFE0827441949FCAC9DC;
+			remoteInfo = ZERO_CHECK;
+		};
+		105DF71C738F4E3EA0380B23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24B030C67A0D40439468EF79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B99F7EEB4CA49EA9DA0BD9F;
+			remoteInfo = ext_recast;
+		};
+		1BA2EC3F4E0246D6AE9FCF10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24B030C67A0D40439468EF79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1768F8A09A546CFA6FB0025;
+			remoteInfo = ext_xxtea;
+		};
+		1DFABE1F606848DE897450B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24B030C67A0D40439468EF79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DEC3D4EEA0249E4AC1D7C40;
+			remoteInfo = ext_md5;
+		};
+		2E7A8129D88F4C9CB8EC46ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24B030C67A0D40439468EF79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F845CFE0827441949FCAC9DC;
+			remoteInfo = ZERO_CHECK;
+		};
+		3DABC7E0FAE14332B8379485 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24B030C67A0D40439468EF79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1768F8A09A546CFA6FB0025;
+			remoteInfo = ext_xxtea;
+		};
+		44C713F7F78F4E34BCB3FA56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24B030C67A0D40439468EF79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77A5C93467BC448FB7E8C8A6;
+			remoteInfo = ext_poly2tri;
+		};
+		477633DA450B4581B9E29C7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24B030C67A0D40439468EF79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85048E8060A04C86BB27B1E1;
+			remoteInfo = ext_unzip;
+		};
+		4E5EB65B96E64068BE8CB881 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24B030C67A0D40439468EF79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DEC3D4EEA0249E4AC1D7C40;
+			remoteInfo = ext_md5;
+		};
+		6133DB01BA384DD29428CE83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24B030C67A0D40439468EF79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21CDB4EE4D434E8DA00DCFB3;
+			remoteInfo = ext_convertUTF;
+		};
+		6267E844E2E54E879C97908B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24B030C67A0D40439468EF79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85048E8060A04C86BB27B1E1;
+			remoteInfo = ext_unzip;
+		};
+		6DFCC66D36574098BA197A85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24B030C67A0D40439468EF79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47A70DAD3B934D2E9C228BD9;
+			remoteInfo = ext_tinyxml2;
+		};
+		88F5906337084E0EB2FCE483 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24B030C67A0D40439468EF79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77A5C93467BC448FB7E8C8A6;
+			remoteInfo = ext_poly2tri;
+		};
+		8A06959B7FC848DC9EF5AD24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24B030C67A0D40439468EF79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4103A0849614CB9AE918C7B;
+			remoteInfo = ext_clipper;
+		};
+		8F06742B95194FDEB77DD526 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24B030C67A0D40439468EF79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4103A0849614CB9AE918C7B;
+			remoteInfo = ext_clipper;
+		};
+		930364A3392F4EE8A654382E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24B030C67A0D40439468EF79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B99F7EEB4CA49EA9DA0BD9F;
+			remoteInfo = ext_recast;
+		};
+		9790290DE26147228C853AF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24B030C67A0D40439468EF79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47A70DAD3B934D2E9C228BD9;
+			remoteInfo = ext_tinyxml2;
+		};
+		CE0F6AB26B5F483B8871C7DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24B030C67A0D40439468EF79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8B9AD575D1E4E769906FD3F;
+			remoteInfo = external;
+		};
+		D2209AB56C894429BFB232CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24B030C67A0D40439468EF79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21CDB4EE4D434E8DA00DCFB3;
+			remoteInfo = ext_convertUTF;
+		};
+		D870928EF58A4146B1409EEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24B030C67A0D40439468EF79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A2ECB081B59493AA9C156C8;
+			remoteInfo = ext_xxhash;
+		};
+		D95D16A4C0C347159B303DF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24B030C67A0D40439468EF79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A2ECB081B59493AA9C156C8;
+			remoteInfo = ext_xxhash;
+		};
+		E7F2FFE4D60842C6A65324DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24B030C67A0D40439468EF79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DCEC4991C854A78B6298D42;
+			remoteInfo = ext_edtaa3func;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0666354A937A40BFA260590C /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/poly2tri/common/shapes.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = shapes.cc; path = poly2tri/common/shapes.cc; sourceTree = SOURCE_ROOT; };
+		07B7477357E0466F8203CBA4 /* ext_clipper */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_clipper.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		093FF53A031546D1B2AB1E8C /* ext_poly2tri */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_poly2tri.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0955D529C5874524B3B6634A /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/unzip/ioapi_mem.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ioapi_mem.cpp; path = unzip/ioapi_mem.cpp; sourceTree = SOURCE_ROOT; };
+		098604F6D97A4F3982E29156 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/xxtea/xxtea.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = xxtea.cpp; path = xxtea/xxtea.cpp; sourceTree = SOURCE_ROOT; };
+		0A641FC486664DE1821C08FD /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		163DA041AA1146A986CB588D /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/engine/external/md5/CMakeFiles/ext_md5.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/engine/external/md5/CMakeFiles/ext_md5.dir/Info.plist"; sourceTree = "<absolute>"; };
+		1A5DA9817AD64938A0F1535F /* ext_convertUTF */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_convertUTF.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A9C14AE367D48B29CA21C22 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ConvertUTFWrapper.cpp; path = ConvertUTF/ConvertUTFWrapper.cpp; sourceTree = SOURCE_ROOT; };
+		1B879E22B5504A78BD8DDAFE /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/xxtea/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = xxtea/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		1BB3099990AE4CBA8BDC7ED2 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourObstacleAvoidance.cpp; path = recast/DetourCrowd/DetourObstacleAvoidance.cpp; sourceTree = SOURCE_ROOT; };
+		1C044C936133411089F0CCDE /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourDebugDraw.cpp; path = recast/DebugUtils/DetourDebugDraw.cpp; sourceTree = SOURCE_ROOT; };
+		22AB0EC5ABB74755955B0522 /* ext_recast */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_recast.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		271FD72CAEBE466D93CB5997 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/empty.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = empty.cpp; path = empty.cpp; sourceTree = SOURCE_ROOT; };
+		31EFDC15A14041BF97D68CE9 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourTileCacheBuilder.cpp; path = recast/DetourTileCache/DetourTileCacheBuilder.cpp; sourceTree = SOURCE_ROOT; };
+		38E6D5C06C2341598327E6B9 /* ext_xxtea */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_xxtea.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A5DF113439244ADA7177284 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/engine/external/tinyxml2/CMakeFiles/ext_tinyxml2.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/engine/external/tinyxml2/CMakeFiles/ext_tinyxml2.dir/Info.plist"; sourceTree = "<absolute>"; };
+		437FDE13972B43EDB6B9FFC4 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/clipper/clipper.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = clipper.cpp; path = clipper/clipper.cpp; sourceTree = SOURCE_ROOT; };
+		445D8B0F403A4BBD97B491A2 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/engine/external/unzip/CMakeFiles/ext_unzip.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/engine/external/unzip/CMakeFiles/ext_unzip.dir/Info.plist"; sourceTree = "<absolute>"; };
+		4DB42A3C744B4BB9A2F93025 /* ext_xxhash */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_xxhash.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		50F45CD8482D43438F370BBB /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNavMeshBuilder.cpp; path = recast/Detour/DetourNavMeshBuilder.cpp; sourceTree = SOURCE_ROOT; };
+		53B0BFEFAB1A43EEBB0A5FF3 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourLocalBoundary.cpp; path = recast/DetourCrowd/DetourLocalBoundary.cpp; sourceTree = SOURCE_ROOT; };
+		5A2AD325CF3A4A40A1B5DD02 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/Info.plist"; sourceTree = "<absolute>"; };
+		5B194FBCFC9E4E268D778BA4 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/edtaa3func/edtaa3func.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = edtaa3func.cpp; path = edtaa3func/edtaa3func.cpp; sourceTree = SOURCE_ROOT; };
+		5CE4320F9BEE4CF1BA61DDBE /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourProximityGrid.cpp; path = recast/DetourCrowd/DetourProximityGrid.cpp; sourceTree = SOURCE_ROOT; };
+		5F5332FAD659482987380595 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/clipper/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = clipper/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		617BCDC4CE394A9EBAE5BA81 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/tinyxml2/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = tinyxml2/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		643A3125D29242A6A2D9BED2 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourPathCorridor.cpp; path = recast/DetourCrowd/DetourPathCorridor.cpp; sourceTree = SOURCE_ROOT; };
+		646321F981334978AE3E8C50 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/Info.plist"; sourceTree = "<absolute>"; };
+		67A598140EC54EC69E00992C /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/ConvertUTF/ConvertUTF.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ConvertUTF.c; path = ConvertUTF/ConvertUTF.c; sourceTree = SOURCE_ROOT; };
+		6C15D588218C42BDAD09D160 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/edtaa3func/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = edtaa3func/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		6D0B462FD12F45C283A22958 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/Detour/DetourAlloc.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourAlloc.cpp; path = recast/Detour/DetourAlloc.cpp; sourceTree = SOURCE_ROOT; };
+		6D27FB8DDE8A4115B1EA6584 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/Detour/DetourNode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNode.cpp; path = recast/Detour/DetourNode.cpp; sourceTree = SOURCE_ROOT; };
+		6E138DBBD5134251A4B97172 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNavMeshQuery.cpp; path = recast/Detour/DetourNavMeshQuery.cpp; sourceTree = SOURCE_ROOT; };
+		808618656AD443AE81A389AA /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/Detour/DetourCommon.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourCommon.cpp; path = recast/Detour/DetourCommon.cpp; sourceTree = SOURCE_ROOT; };
+		8176C2206B534D4CBAD610F5 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/md5/md5.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = md5.c; path = md5/md5.c; sourceTree = SOURCE_ROOT; };
+		8BFBAE72C5664D16B1181F19 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/tinyxml2/tinyxml2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tinyxml2.cpp; path = tinyxml2/tinyxml2.cpp; sourceTree = SOURCE_ROOT; };
+		8E02DA4406A54EAC83E74F70 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/engine/external/CMakeFiles/external.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/engine/external/CMakeFiles/external.dir/Info.plist"; sourceTree = "<absolute>"; };
+		8F150B36D3CF43B6992F1114 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/xxhash/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = xxhash/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		92A483929CEF41FE9BEF92CA /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/Detour/DetourNavMesh.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNavMesh.cpp; path = recast/Detour/DetourNavMesh.cpp; sourceTree = SOURCE_ROOT; };
+		9C7FD87E858848F99672BF26 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DebugDraw.cpp; path = recast/DebugUtils/DebugDraw.cpp; sourceTree = SOURCE_ROOT; };
+		9F9B0E9D47AD4EA8A424E9C7 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/poly2tri/sweep/sweep_context.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sweep_context.cc; path = poly2tri/sweep/sweep_context.cc; sourceTree = SOURCE_ROOT; };
+		A030A4A2C9A443BEAC3F75FF /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/poly2tri/sweep/cdt.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = cdt.cc; path = poly2tri/sweep/cdt.cc; sourceTree = SOURCE_ROOT; };
+		AA58F568BC7D4BB9903D8F61 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/poly2tri/sweep/sweep.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sweep.cc; path = poly2tri/sweep/sweep.cc; sourceTree = SOURCE_ROOT; };
+		B5925441CA2447E3A9494C61 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/unzip/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = unzip/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B652AA169103434BBD5C4FE9 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/fastlz/fastlz.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fastlz.c; path = recast/fastlz/fastlz.c; sourceTree = SOURCE_ROOT; };
+		B7FB9C7A70F847A3ADACCD12 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/xxhash/xxhash.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = xxhash.c; path = xxhash/xxhash.c; sourceTree = SOURCE_ROOT; };
+		BE636FB6FF3D44FD9310D93A /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/Info.plist"; sourceTree = "<absolute>"; };
+		C4C6982B649E48A9B188D50A /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/unzip/unzip.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = unzip.cpp; path = unzip/unzip.cpp; sourceTree = SOURCE_ROOT; };
+		C4D939FB9CCC42C5A267CDD5 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourPathQueue.cpp; path = recast/DetourCrowd/DetourPathQueue.cpp; sourceTree = SOURCE_ROOT; };
+		C6C3E1B08E8041DFA161A12E /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/ConvertUTF/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = ConvertUTF/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		CEE75F3343E041299870C42A /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/engine/external/clipper/CMakeFiles/ext_clipper.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/engine/external/clipper/CMakeFiles/ext_clipper.dir/Info.plist"; sourceTree = "<absolute>"; };
+		D358A20B9ABD4087BD32B1E1 /* ext_tinyxml2 */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_tinyxml2.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D38BE149AB1746F8A59C9AD9 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/engine/external/recast/CMakeFiles/ext_recast.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/engine/external/recast/CMakeFiles/ext_recast.dir/Info.plist"; sourceTree = "<absolute>"; };
+		D41F32AC2E984A74BB34E6AB /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/poly2tri/sweep/advancing_front.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = advancing_front.cc; path = poly2tri/sweep/advancing_front.cc; sourceTree = SOURCE_ROOT; };
+		DC725851E4BF4632B737CC16 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = recast/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		DEBAF49378334C92929364CA /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourCrowd.cpp; path = recast/DetourCrowd/DetourCrowd.cpp; sourceTree = SOURCE_ROOT; };
+		E137ABBABBD14173825D84BE /* external */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libexternal.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2A05A2D06CD4729A478E26F /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/md5/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = md5/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E2D7CAD3C55D4D2EAB1AB905 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E85394E009F548C68FB0DFFC /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/unzip/ioapi.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ioapi.cpp; path = unzip/ioapi.cpp; sourceTree = SOURCE_ROOT; };
+		EC3CE23B00544587AF1D1002 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/engine/external/xxtea/CMakeFiles/ext_xxtea.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/engine/external/xxtea/CMakeFiles/ext_xxtea.dir/Info.plist"; sourceTree = "<absolute>"; };
+		EC4596CAB3EB4265A0BD9441 /* ext_edtaa3func */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_edtaa3func.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC675A6CC18947A5BA48EE95 /* ext_md5 */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_md5.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF4A18B7D2F24D80B59F6F90 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/engine/external/xxhash/CMakeFiles/ext_xxhash.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/engine/external/xxhash/CMakeFiles/ext_xxhash.dir/Info.plist"; sourceTree = "<absolute>"; };
+		F2D21D0B19AF4B9A8802F421 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/poly2tri/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = poly2tri/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		FDD2E7A357B848F5928C2CD5 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourTileCache.cpp; path = recast/DetourTileCache/DetourTileCache.cpp; sourceTree = SOURCE_ROOT; };
+		FF9370C135024D18925108B1 /* ext_unzip */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_unzip.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		189C627EE0FB4C58BD80811C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		204320DA6FBF4F79AABD449A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31D79D0E25B94B82B85A868A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E5BC7943A9846198828B226 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		574CCE24AC0F481B92AFA2C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70829A8D2ECC49B68C668CAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C7B44294CCB48C88F7C1B46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		923C12A619544E0B8300F31F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		977FD11F48794137A2B59684 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6E36B9B2C604803BBD83DD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D732A66281DE4BF6B4A74F10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0279123881394E56A88DD93C /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				67A598140EC54EC69E00992C /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/ConvertUTF/ConvertUTF.c */,
+				1A9C14AE367D48B29CA21C22 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		0AA6FC58F37A47A4AF7602DE /* ext_xxtea */ = {
+			isa = PBXGroup;
+			children = (
+				D016EFF3BC0C44869B117162 /* Source Files */,
+				8FA9BCAE10CC4632BEBC6D58 /* Resources */,
+				1B879E22B5504A78BD8DDAFE /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/xxtea/CMakeLists.txt */,
+			);
+			name = ext_xxtea;
+			sourceTree = "<group>";
+		};
+		0DED8264D4DD4198AFE578AF /* ext_clipper */ = {
+			isa = PBXGroup;
+			children = (
+				E2A12EAAEEF641B488C3C936 /* Source Files */,
+				77BF00D5D3B24F97B99DB76E /* Resources */,
+				5F5332FAD659482987380595 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/clipper/CMakeLists.txt */,
+			);
+			name = ext_clipper;
+			sourceTree = "<group>";
+		};
+		16A71420CA2245789D955B09 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3A5DF113439244ADA7177284 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/engine/external/tinyxml2/CMakeFiles/ext_tinyxml2.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2BFEB8A06A5C427CA63E9079 /* ext_xxhash */ = {
+			isa = PBXGroup;
+			children = (
+				E2D5C09C7B72466692EC5A3F /* Source Files */,
+				DC458ABA0566428C9878B748 /* Resources */,
+				8F150B36D3CF43B6992F1114 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/xxhash/CMakeLists.txt */,
+			);
+			name = ext_xxhash;
+			sourceTree = "<group>";
+		};
+		44928DEE3DFA4757B101C680 /* ext_poly2tri */ = {
+			isa = PBXGroup;
+			children = (
+				89DA838CCEBE44FD87AF9663 /* Source Files */,
+				CAF2430B87C248DF9EF5A7FB /* Resources */,
+				F2D21D0B19AF4B9A8802F421 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/poly2tri/CMakeLists.txt */,
+			);
+			name = ext_poly2tri;
+			sourceTree = "<group>";
+		};
+		45F7B7D7446344909AE0CD40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07B7477357E0466F8203CBA4 /* ext_clipper */,
+				1A5DA9817AD64938A0F1535F /* ext_convertUTF */,
+				EC4596CAB3EB4265A0BD9441 /* ext_edtaa3func */,
+				EC675A6CC18947A5BA48EE95 /* ext_md5 */,
+				093FF53A031546D1B2AB1E8C /* ext_poly2tri */,
+				22AB0EC5ABB74755955B0522 /* ext_recast */,
+				D358A20B9ABD4087BD32B1E1 /* ext_tinyxml2 */,
+				FF9370C135024D18925108B1 /* ext_unzip */,
+				4DB42A3C744B4BB9A2F93025 /* ext_xxhash */,
+				38E6D5C06C2341598327E6B9 /* ext_xxtea */,
+				E137ABBABBD14173825D84BE /* external */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E2B61682BFF490482DB975E /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				271FD72CAEBE466D93CB5997 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/empty.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		6004FA51207A4B17AA3C41AC /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				E85394E009F548C68FB0DFFC /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/unzip/ioapi.cpp */,
+				0955D529C5874524B3B6634A /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/unzip/ioapi_mem.cpp */,
+				C4C6982B649E48A9B188D50A /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/unzip/unzip.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		63BEAC83F2264CAD95B49EAA /* external */ = {
+			isa = PBXGroup;
+			children = (
+				5E2B61682BFF490482DB975E /* Source Files */,
+				F83AF9853E0D42578712A284 /* Resources */,
+				0A641FC486664DE1821C08FD /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/CMakeLists.txt */,
+			);
+			name = external;
+			sourceTree = "<group>";
+		};
+		647723A8D585412C9007AF85 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D38BE149AB1746F8A59C9AD9 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/engine/external/recast/CMakeFiles/ext_recast.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6A3F1F7AA1B54FB691BBA7EB /* ext_md5 */ = {
+			isa = PBXGroup;
+			children = (
+				C3786D52D519489DB0C581E5 /* Source Files */,
+				98C4C0BE167140B18950E94D /* Resources */,
+				E2A05A2D06CD4729A478E26F /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/md5/CMakeLists.txt */,
+			);
+			name = ext_md5;
+			sourceTree = "<group>";
+		};
+		6B6F5D6091DE4E3698C3F771 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C7FD87E858848F99672BF26 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */,
+				1C044C936133411089F0CCDE /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */,
+				6D0B462FD12F45C283A22958 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/Detour/DetourAlloc.cpp */,
+				808618656AD443AE81A389AA /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/Detour/DetourCommon.cpp */,
+				92A483929CEF41FE9BEF92CA /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/Detour/DetourNavMesh.cpp */,
+				50F45CD8482D43438F370BBB /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */,
+				6E138DBBD5134251A4B97172 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */,
+				6D27FB8DDE8A4115B1EA6584 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/Detour/DetourNode.cpp */,
+				DEBAF49378334C92929364CA /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */,
+				53B0BFEFAB1A43EEBB0A5FF3 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */,
+				1BB3099990AE4CBA8BDC7ED2 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */,
+				643A3125D29242A6A2D9BED2 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */,
+				C4D939FB9CCC42C5A267CDD5 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */,
+				5CE4320F9BEE4CF1BA61DDBE /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */,
+				FDD2E7A357B848F5928C2CD5 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */,
+				31EFDC15A14041BF97D68CE9 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */,
+				B652AA169103434BBD5C4FE9 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/fastlz/fastlz.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		77BF00D5D3B24F97B99DB76E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CEE75F3343E041299870C42A /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/engine/external/clipper/CMakeFiles/ext_clipper.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		792E609DA830492387716998 /* ext_convertUTF */ = {
+			isa = PBXGroup;
+			children = (
+				0279123881394E56A88DD93C /* Source Files */,
+				7A21E8DA1B7949C7A0CC5D56 /* Resources */,
+				C6C3E1B08E8041DFA161A12E /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/ConvertUTF/CMakeLists.txt */,
+			);
+			name = ext_convertUTF;
+			sourceTree = "<group>";
+		};
+		7A21E8DA1B7949C7A0CC5D56 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				646321F981334978AE3E8C50 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7B3AD86749BA4BD4B5CC0C8A /* ext_recast */ = {
+			isa = PBXGroup;
+			children = (
+				6B6F5D6091DE4E3698C3F771 /* Source Files */,
+				647723A8D585412C9007AF85 /* Resources */,
+				DC725851E4BF4632B737CC16 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/CMakeLists.txt */,
+			);
+			name = ext_recast;
+			sourceTree = "<group>";
+		};
+		7D36443E9AD247C497397F55 /* ext_unzip */ = {
+			isa = PBXGroup;
+			children = (
+				6004FA51207A4B17AA3C41AC /* Source Files */,
+				B8E7FC7A8AC047C3B0282E01 /* Resources */,
+				B5925441CA2447E3A9494C61 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/unzip/CMakeLists.txt */,
+			);
+			name = ext_unzip;
+			sourceTree = "<group>";
+		};
+		89DA838CCEBE44FD87AF9663 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				0666354A937A40BFA260590C /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/poly2tri/common/shapes.cc */,
+				D41F32AC2E984A74BB34E6AB /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/poly2tri/sweep/advancing_front.cc */,
+				A030A4A2C9A443BEAC3F75FF /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/poly2tri/sweep/cdt.cc */,
+				AA58F568BC7D4BB9903D8F61 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/poly2tri/sweep/sweep.cc */,
+				9F9B0E9D47AD4EA8A424E9C7 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/poly2tri/sweep/sweep_context.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		8FA9BCAE10CC4632BEBC6D58 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EC3CE23B00544587AF1D1002 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/engine/external/xxtea/CMakeFiles/ext_xxtea.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		98C4C0BE167140B18950E94D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				163DA041AA1146A986CB588D /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/engine/external/md5/CMakeFiles/ext_md5.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		9DE474717D884B0AA8F4AA79 /* ext_edtaa3func */ = {
+			isa = PBXGroup;
+			children = (
+				EC3B7342AC98472E87F32B8D /* Source Files */,
+				CC26084F8A2D4CB88D7240E9 /* Resources */,
+				6C15D588218C42BDAD09D160 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/edtaa3func/CMakeLists.txt */,
+			);
+			name = ext_edtaa3func;
+			sourceTree = "<group>";
+		};
+		A44DEAAA8832447DBE6FFDFE /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		A8495EA1684B4A8A85F36D39 = {
+			isa = PBXGroup;
+			children = (
+				F5D60156EF344787B27B0393 /* External */,
+				E08E669EA99A412DBB2927B1 /* ALL_BUILD */,
+				45F7B7D7446344909AE0CD40 /* Products */,
+				F6DEF1BB3D234D30B6731C2F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AD8B9EB0F2D9444FBBFDBCCB /* ext_tinyxml2 */ = {
+			isa = PBXGroup;
+			children = (
+				C417ED9705C84483AD63465B /* Source Files */,
+				16A71420CA2245789D955B09 /* Resources */,
+				617BCDC4CE394A9EBAE5BA81 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/tinyxml2/CMakeLists.txt */,
+			);
+			name = ext_tinyxml2;
+			sourceTree = "<group>";
+		};
+		B8E7FC7A8AC047C3B0282E01 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				445D8B0F403A4BBD97B491A2 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/engine/external/unzip/CMakeFiles/ext_unzip.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C3786D52D519489DB0C581E5 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				8176C2206B534D4CBAD610F5 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/md5/md5.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		C417ED9705C84483AD63465B /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BFBAE72C5664D16B1181F19 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/tinyxml2/tinyxml2.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		CAF2430B87C248DF9EF5A7FB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5A2AD325CF3A4A40A1B5DD02 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CC26084F8A2D4CB88D7240E9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BE636FB6FF3D44FD9310D93A /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D016EFF3BC0C44869B117162 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				098604F6D97A4F3982E29156 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/xxtea/xxtea.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		DC458ABA0566428C9878B748 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EF4A18B7D2F24D80B59F6F90 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/engine/external/xxhash/CMakeFiles/ext_xxhash.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E08E669EA99A412DBB2927B1 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				A44DEAAA8832447DBE6FFDFE /* CMake Rules */,
+				E2D7CAD3C55D4D2EAB1AB905 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		E2A12EAAEEF641B488C3C936 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				437FDE13972B43EDB6B9FFC4 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/clipper/clipper.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		E2D5C09C7B72466692EC5A3F /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7FB9C7A70F847A3ADACCD12 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/xxhash/xxhash.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		EC3B7342AC98472E87F32B8D /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B194FBCFC9E4E268D778BA4 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/edtaa3func/edtaa3func.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		F5D60156EF344787B27B0393 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				63BEAC83F2264CAD95B49EAA /* external */,
+				7B3AD86749BA4BD4B5CC0C8A /* ext_recast */,
+				AD8B9EB0F2D9444FBBFDBCCB /* ext_tinyxml2 */,
+				2BFEB8A06A5C427CA63E9079 /* ext_xxhash */,
+				0AA6FC58F37A47A4AF7602DE /* ext_xxtea */,
+				0DED8264D4DD4198AFE578AF /* ext_clipper */,
+				9DE474717D884B0AA8F4AA79 /* ext_edtaa3func */,
+				792E609DA830492387716998 /* ext_convertUTF */,
+				44928DEE3DFA4757B101C680 /* ext_poly2tri */,
+				6A3F1F7AA1B54FB691BBA7EB /* ext_md5 */,
+				7D36443E9AD247C497397F55 /* ext_unzip */,
+			);
+			name = External;
+			sourceTree = "<group>";
+		};
+		F6DEF1BB3D234D30B6731C2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F83AF9853E0D42578712A284 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8E02DA4406A54EAC83E74F70 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/engine/external/CMakeFiles/external.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0DCEC4991C854A78B6298D42 /* ext_edtaa3func */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C03075F24C6E4BEA9FFC38BF /* Build configuration list for PBXNativeTarget "ext_edtaa3func" */;
+			buildPhases = (
+				C80F5F102F5543C490B93456 /* Sources */,
+				574CCE24AC0F481B92AFA2C6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_edtaa3func;
+			productName = ext_edtaa3func;
+			productReference = EC4596CAB3EB4265A0BD9441 /* ext_edtaa3func */;
+			productType = "com.apple.product-type.library.static";
+		};
+		1DEC3D4EEA0249E4AC1D7C40 /* ext_md5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDE23DBE278C4CE3B273532C /* Build configuration list for PBXNativeTarget "ext_md5" */;
+			buildPhases = (
+				2066F5909BFB4A05953BE5ED /* Sources */,
+				31D79D0E25B94B82B85A868A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_md5;
+			productName = ext_md5;
+			productReference = EC675A6CC18947A5BA48EE95 /* ext_md5 */;
+			productType = "com.apple.product-type.library.static";
+		};
+		21CDB4EE4D434E8DA00DCFB3 /* ext_convertUTF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70A1E617702D4704BFFBA695 /* Build configuration list for PBXNativeTarget "ext_convertUTF" */;
+			buildPhases = (
+				5012D311DA534D589B5E21A8 /* Sources */,
+				B6E36B9B2C604803BBD83DD2 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_convertUTF;
+			productName = ext_convertUTF;
+			productReference = 1A5DA9817AD64938A0F1535F /* ext_convertUTF */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2B99F7EEB4CA49EA9DA0BD9F /* ext_recast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 559A032C3107444ABA0067FA /* Build configuration list for PBXNativeTarget "ext_recast" */;
+			buildPhases = (
+				7A89C5257EAE4436B07C636A /* Sources */,
+				4E5BC7943A9846198828B226 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_recast;
+			productName = ext_recast;
+			productReference = 22AB0EC5ABB74755955B0522 /* ext_recast */;
+			productType = "com.apple.product-type.library.static";
+		};
+		47A70DAD3B934D2E9C228BD9 /* ext_tinyxml2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 879B9FDBFACC4EB99071EDF5 /* Build configuration list for PBXNativeTarget "ext_tinyxml2" */;
+			buildPhases = (
+				8A5BC3F952A84FCCA02C9DBE /* Sources */,
+				204320DA6FBF4F79AABD449A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_tinyxml2;
+			productName = ext_tinyxml2;
+			productReference = D358A20B9ABD4087BD32B1E1 /* ext_tinyxml2 */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6A2ECB081B59493AA9C156C8 /* ext_xxhash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DB1FEB038EC49BFB88BE551 /* Build configuration list for PBXNativeTarget "ext_xxhash" */;
+			buildPhases = (
+				ABAD4E375D4B4A289BD6A60F /* Sources */,
+				D732A66281DE4BF6B4A74F10 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_xxhash;
+			productName = ext_xxhash;
+			productReference = 4DB42A3C744B4BB9A2F93025 /* ext_xxhash */;
+			productType = "com.apple.product-type.library.static";
+		};
+		77A5C93467BC448FB7E8C8A6 /* ext_poly2tri */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23201AC62013491BBD221048 /* Build configuration list for PBXNativeTarget "ext_poly2tri" */;
+			buildPhases = (
+				9510C86DEBE443EEB623A178 /* Sources */,
+				923C12A619544E0B8300F31F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_poly2tri;
+			productName = ext_poly2tri;
+			productReference = 093FF53A031546D1B2AB1E8C /* ext_poly2tri */;
+			productType = "com.apple.product-type.library.static";
+		};
+		85048E8060A04C86BB27B1E1 /* ext_unzip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04A6D308592F48A885B0FF77 /* Build configuration list for PBXNativeTarget "ext_unzip" */;
+			buildPhases = (
+				F9B8FDB18142444E8956448C /* Sources */,
+				7C7B44294CCB48C88F7C1B46 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_unzip;
+			productName = ext_unzip;
+			productReference = FF9370C135024D18925108B1 /* ext_unzip */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C8B9AD575D1E4E769906FD3F /* external */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 131C38E5732F45BA889FE5D8 /* Build configuration list for PBXNativeTarget "external" */;
+			buildPhases = (
+				5D412EB922134B58A4D4D551 /* Sources */,
+				977FD11F48794137A2B59684 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				723F265B26FE4620811546B5 /* PBXTargetDependency */,
+				C00D14C7A9CF467C92C3537F /* PBXTargetDependency */,
+				D40220990D4241719F0EBD9F /* PBXTargetDependency */,
+				4C43DAD0422240ED8F6239EC /* PBXTargetDependency */,
+				6414B45F8CB7403BAAE374F9 /* PBXTargetDependency */,
+				926BED294D1F4662AE684367 /* PBXTargetDependency */,
+				7B84E2B98EE14B91998DB154 /* PBXTargetDependency */,
+				E1C85EEAA5144706A6249ACE /* PBXTargetDependency */,
+				7D538D4FD6EF4F4599FFFF75 /* PBXTargetDependency */,
+				213642F1CDD1459B8EECA7AB /* PBXTargetDependency */,
+				B7573D3E590342CDB82A6D1E /* PBXTargetDependency */,
+			);
+			name = external;
+			productName = external;
+			productReference = E137ABBABBD14173825D84BE /* external */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E4103A0849614CB9AE918C7B /* ext_clipper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4909B29A997D48F59573FEBF /* Build configuration list for PBXNativeTarget "ext_clipper" */;
+			buildPhases = (
+				1991E234B07F47B78A4DD619 /* Sources */,
+				189C627EE0FB4C58BD80811C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_clipper;
+			productName = ext_clipper;
+			productReference = 07B7477357E0466F8203CBA4 /* ext_clipper */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F1768F8A09A546CFA6FB0025 /* ext_xxtea */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B4830463AE24594B3FD5B06 /* Build configuration list for PBXNativeTarget "ext_xxtea" */;
+			buildPhases = (
+				42447C3DCBAB48C694F6C3F9 /* Sources */,
+				70829A8D2ECC49B68C668CAC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_xxtea;
+			productName = ext_xxtea;
+			productReference = 38E6D5C06C2341598327E6B9 /* ext_xxtea */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24B030C67A0D40439468EF79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1420;
+			};
+			buildConfigurationList = 7B4597E221504BEC9D6E1688 /* Build configuration list for PBXProject "external" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				39D9FA9F0A1A43E9A5A6DC64 /* Debug */,
+				6005D7256F1048B8A5A15BD9 /* Release */,
+				5074AC6BD9A848F0B78B4FC0 /* MinSizeRel */,
+				0CA0DBB464514E4287919B88 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = A8495EA1684B4A8A85F36D39;
+			projectDirPath = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external";
+			projectRoot = "";
+			targets = (
+				17F95BA856564B789690C1CA /* ALL_BUILD */,
+				F845CFE0827441949FCAC9DC /* ZERO_CHECK */,
+				E4103A0849614CB9AE918C7B /* ext_clipper */,
+				21CDB4EE4D434E8DA00DCFB3 /* ext_convertUTF */,
+				0DCEC4991C854A78B6298D42 /* ext_edtaa3func */,
+				1DEC3D4EEA0249E4AC1D7C40 /* ext_md5 */,
+				77A5C93467BC448FB7E8C8A6 /* ext_poly2tri */,
+				2B99F7EEB4CA49EA9DA0BD9F /* ext_recast */,
+				47A70DAD3B934D2E9C228BD9 /* ext_tinyxml2 */,
+				85048E8060A04C86BB27B1E1 /* ext_unzip */,
+				6A2ECB081B59493AA9C156C8 /* ext_xxhash */,
+				F1768F8A09A546CFA6FB0025 /* ext_xxtea */,
+				C8B9AD575D1E4E769906FD3F /* external */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08A8F3561246EAC51CB46DBE /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/engine/external/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/engine/external
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/engine/external
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/engine/external
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/engine/external
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		83E574F3C88B82E4ED329B93 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/engine/external/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/engine/external
+  make -f /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/engine/external/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/engine/external
+  make -f /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/engine/external/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/engine/external
+  make -f /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/engine/external/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/engine/external
+  make -f /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/engine/external/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1991E234B07F47B78A4DD619 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E524D6A564A04C72851A9D8D /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/clipper/clipper.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2066F5909BFB4A05953BE5ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9E60B101C534B48ACB90457 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/md5/md5.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42447C3DCBAB48C694F6C3F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DE5254351FE4F6ABB5023D1 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/xxtea/xxtea.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5012D311DA534D589B5E21A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD8F0A5736FF494F986EFF43 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/ConvertUTF/ConvertUTF.c */,
+				BCA53569184E4299B8CAB6F0 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D412EB922134B58A4D4D551 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E8EA1BAC1BE4155A96E21E5 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/empty.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A89C5257EAE4436B07C636A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D93AC7CEFC114148A8EB24E5 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */,
+				8DE96813F29143C7B950351C /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */,
+				2BF87C91F5994E1ABE2C1604 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/Detour/DetourAlloc.cpp */,
+				6C26350E8F1046559F940805 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/Detour/DetourCommon.cpp */,
+				6AB00E1703014EB0BE6E3283 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/Detour/DetourNavMesh.cpp */,
+				458A6A9AE85C469A950A5BE9 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */,
+				21CFFF38DEA24AB89C80B755 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */,
+				A4852D5D6FA44009AABB1F6F /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/Detour/DetourNode.cpp */,
+				EE66C6CC2B764687A3913475 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */,
+				7CD8A63B9CCB444CBC612EA9 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */,
+				3F5A2531D4DB42908D5532DF /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */,
+				42E177D45BBF476A90BA7D09 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */,
+				A3262F04483948A2AB0F7302 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */,
+				465910BDB8A447A0B871C949 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */,
+				8453CDD9400949E9823F2FEF /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */,
+				128426DD92D9400FA76496FC /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */,
+				5B37A980875344F1B756B2C2 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/fastlz/fastlz.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A5BC3F952A84FCCA02C9DBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEF9B5C0E37E47F1BDB622A1 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/tinyxml2/tinyxml2.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9510C86DEBE443EEB623A178 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				070FBB4EFEDD4684AA313F5C /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/poly2tri/common/shapes.cc */,
+				52E818A276264988A487942C /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/poly2tri/sweep/advancing_front.cc */,
+				32A0E0F9F4D94002972388C2 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/poly2tri/sweep/cdt.cc */,
+				146912D5B84A42109CAD9022 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/poly2tri/sweep/sweep.cc */,
+				DE64844D9A7847B8993100CC /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/poly2tri/sweep/sweep_context.cc */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABAD4E375D4B4A289BD6A60F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39EE9FD826C34E799BE78CAF /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/xxhash/xxhash.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C80F5F102F5543C490B93456 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F88FAC0283614DE388965CC9 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/edtaa3func/edtaa3func.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9B8FDB18142444E8956448C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E76AF516AD44F33878DE39E /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/unzip/ioapi.cpp */,
+				AFA22A87B1F04F4B8B138042 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/unzip/ioapi_mem.cpp */,
+				3F49B7E5FDB6478092037320 /* /Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/unzip/unzip.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		213642F1CDD1459B8EECA7AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85048E8060A04C86BB27B1E1 /* ext_unzip */;
+			targetProxy = 6267E844E2E54E879C97908B /* PBXContainerItemProxy */;
+		};
+		33A77A805BF34C13B98842A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85048E8060A04C86BB27B1E1 /* ext_unzip */;
+			targetProxy = 477633DA450B4581B9E29C7C /* PBXContainerItemProxy */;
+		};
+		4C43DAD0422240ED8F6239EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1768F8A09A546CFA6FB0025 /* ext_xxtea */;
+			targetProxy = 1BA2EC3F4E0246D6AE9FCF10 /* PBXContainerItemProxy */;
+		};
+		523ECB1F27DE4400BDB500B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0DCEC4991C854A78B6298D42 /* ext_edtaa3func */;
+			targetProxy = 0ADF0DE0757B48F0A42441F9 /* PBXContainerItemProxy */;
+		};
+		635D9BECAA9C4DF189702CB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DEC3D4EEA0249E4AC1D7C40 /* ext_md5 */;
+			targetProxy = 4E5EB65B96E64068BE8CB881 /* PBXContainerItemProxy */;
+		};
+		6414B45F8CB7403BAAE374F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4103A0849614CB9AE918C7B /* ext_clipper */;
+			targetProxy = 8A06959B7FC848DC9EF5AD24 /* PBXContainerItemProxy */;
+		};
+		6CF404782B754E609D9188B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77A5C93467BC448FB7E8C8A6 /* ext_poly2tri */;
+			targetProxy = 44C713F7F78F4E34BCB3FA56 /* PBXContainerItemProxy */;
+		};
+		723F265B26FE4620811546B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B99F7EEB4CA49EA9DA0BD9F /* ext_recast */;
+			targetProxy = 930364A3392F4EE8A654382E /* PBXContainerItemProxy */;
+		};
+		7B84E2B98EE14B91998DB154 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21CDB4EE4D434E8DA00DCFB3 /* ext_convertUTF */;
+			targetProxy = 6133DB01BA384DD29428CE83 /* PBXContainerItemProxy */;
+		};
+		7D538D4FD6EF4F4599FFFF75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DEC3D4EEA0249E4AC1D7C40 /* ext_md5 */;
+			targetProxy = 1DFABE1F606848DE897450B6 /* PBXContainerItemProxy */;
+		};
+		88D70F1CAB974645A3C590A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8B9AD575D1E4E769906FD3F /* external */;
+			targetProxy = CE0F6AB26B5F483B8871C7DF /* PBXContainerItemProxy */;
+		};
+		926BED294D1F4662AE684367 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0DCEC4991C854A78B6298D42 /* ext_edtaa3func */;
+			targetProxy = E7F2FFE4D60842C6A65324DE /* PBXContainerItemProxy */;
+		};
+		972787746A6A41A69DD71569 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47A70DAD3B934D2E9C228BD9 /* ext_tinyxml2 */;
+			targetProxy = 6DFCC66D36574098BA197A85 /* PBXContainerItemProxy */;
+		};
+		A12197A67BAF44F085C5DB39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F845CFE0827441949FCAC9DC /* ZERO_CHECK */;
+			targetProxy = 0E7F4FB91CAB4CD2AEC7EDEA /* PBXContainerItemProxy */;
+		};
+		AD3C83FE9E004FCD862DF382 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21CDB4EE4D434E8DA00DCFB3 /* ext_convertUTF */;
+			targetProxy = D2209AB56C894429BFB232CD /* PBXContainerItemProxy */;
+		};
+		B7573D3E590342CDB82A6D1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F845CFE0827441949FCAC9DC /* ZERO_CHECK */;
+			targetProxy = 2E7A8129D88F4C9CB8EC46ED /* PBXContainerItemProxy */;
+		};
+		C00D14C7A9CF467C92C3537F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47A70DAD3B934D2E9C228BD9 /* ext_tinyxml2 */;
+			targetProxy = 9790290DE26147228C853AF9 /* PBXContainerItemProxy */;
+		};
+		C2324B9119464A4EB4EDEB6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4103A0849614CB9AE918C7B /* ext_clipper */;
+			targetProxy = 8F06742B95194FDEB77DD526 /* PBXContainerItemProxy */;
+		};
+		C7E8AD2BE6D44A688F5545E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A2ECB081B59493AA9C156C8 /* ext_xxhash */;
+			targetProxy = D870928EF58A4146B1409EEC /* PBXContainerItemProxy */;
+		};
+		D40220990D4241719F0EBD9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A2ECB081B59493AA9C156C8 /* ext_xxhash */;
+			targetProxy = D95D16A4C0C347159B303DF2 /* PBXContainerItemProxy */;
+		};
+		E1C85EEAA5144706A6249ACE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77A5C93467BC448FB7E8C8A6 /* ext_poly2tri */;
+			targetProxy = 88F5906337084E0EB2FCE483 /* PBXContainerItemProxy */;
+		};
+		F79120AFAF3A488D9E824BC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B99F7EEB4CA49EA9DA0BD9F /* ext_recast */;
+			targetProxy = 105DF71C738F4E3EA0380B23 /* PBXContainerItemProxy */;
+		};
+		FE08F39992A044EEA465AC69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1768F8A09A546CFA6FB0025 /* ext_xxtea */;
+			targetProxy = 3DABC7E0FAE14332B8379485 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		025DDE2C17FE4CAFB12E99C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/lib/Debug";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/clipper/.","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_clipper;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/build/ext_clipper.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		0413F5CD595E45D29D8003E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/lib/Release";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",LWS_WITH_LIBUV,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/..","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/tinyxml2/.","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/xxhash/.","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/xxtea/.","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/clipper/.","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/edtaa3func/.","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/ConvertUTF/.","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/poly2tri/..","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/md5/..","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/unzip/.","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = external;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/Box2D/include","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/chipmunk/include","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/freetype2/include/ios/freetype2","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/bullet/include","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/bullet/include/bullet","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/jpeg/include/ios","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/openssl/include/ios","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/uv/include","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/webp/include/ios","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/websockets/include/ios","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/curl/include/ios","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/png/include/ios","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/glsl-optimizer/include","$(inherited)");
+				TARGET_TEMP_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/build/external.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		04B75B026811481CA01B4452 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/lib/RelWithDebInfo";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/edtaa3func/.","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_edtaa3func;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/build/ext_edtaa3func.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		0C2698266DE949C0A9AD34B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/lib/Release";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/md5/..","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_md5;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/build/ext_md5.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		0FF326EDB8FA47FA84634798 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		1659C51AC54745DD9B08DDA3 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/lib/MinSizeRel";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/..","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_recast;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/build/ext_recast.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		1E61EEED14B6428AA6683698 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/lib/RelWithDebInfo";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/xxtea/.","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxtea;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/build/ext_xxtea.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		1E7D0948D2484AEDB82FFDF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/lib/Debug";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/..","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = ("   '-std=gnu99' ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_recast;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/build/ext_recast.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		1EF2585E3C7A4A6396AF428B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/build";
+			};
+			name = Debug;
+		};
+		255C1549E1D6468B9B8E9AC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/lib/Release";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/tinyxml2/.","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_tinyxml2;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/build/ext_tinyxml2.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		27C5E048206E4F739C5FF489 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/lib/RelWithDebInfo";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/..","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = ("       -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_recast;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/build/ext_recast.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		28F1ABEB39E24D0888518B9B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/lib/MinSizeRel";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/ConvertUTF/.","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_convertUTF;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/build/ext_convertUTF.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		2EC03C443C1949F1AAD617B8 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/lib/RelWithDebInfo";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/md5/..","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = ("       -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_md5;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/build/ext_md5.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		3335D8401E0340F8BF99A395 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/lib/Debug";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/ConvertUTF/.","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = ("   '-std=gnu99' ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_convertUTF;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/build/ext_convertUTF.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		36A5505964234FCCBB5CD552 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		3D21414ABCAC40F68AAE19EF /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/lib/MinSizeRel";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/unzip/.","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_unzip;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/build/ext_unzip.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		3D34CEFBACCE4B5DAE92F5FC /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/lib/MinSizeRel";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/md5/..","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_md5;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/build/ext_md5.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		4011558FEE87487DAC482D62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/lib/Debug";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/unzip/.","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_unzip;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/build/ext_unzip.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		41B856AB04434C64806F660C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/lib/RelWithDebInfo";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/tinyxml2/.","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_tinyxml2;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/build/ext_tinyxml2.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		481F8432A32A43C198E9DAF4 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/lib/MinSizeRel";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/tinyxml2/.","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_tinyxml2;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/build/ext_tinyxml2.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		4ADCAEDC55824C23B925D332 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		4D5CB6FF289C4AE8935881C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/lib/Debug";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/tinyxml2/.","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_tinyxml2;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/build/ext_tinyxml2.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		518AB2304E1B49B9A869BA21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/lib/Release";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/unzip/.","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_unzip;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/build/ext_unzip.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		527B382ED6974C6CB209C13E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		55FBBE6D7D58436B99F36C95 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/build";
+			};
+			name = MinSizeRel;
+		};
+		57503D3B04DB4F309C1D73DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/lib/Release";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/edtaa3func/.","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_edtaa3func;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/build/ext_edtaa3func.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		61395C6ECEFA4BA197CCB212 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/lib/MinSizeRel";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/edtaa3func/.","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_edtaa3func;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/build/ext_edtaa3func.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		68FFA655A69B4AECAE16BD04 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		6D7B77B78B9847F69944A444 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/lib/Release";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/poly2tri/..","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_poly2tri;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/build/ext_poly2tri.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		6FA0DC266523445EA282F475 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/lib/MinSizeRel";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/xxhash/.","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxhash;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/build/ext_xxhash.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		714324B0CEC24666BFCB045F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/lib/RelWithDebInfo";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/clipper/.","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_clipper;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/build/ext_clipper.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		7F4AF50FA2ED4BD0A00C6EA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/lib/Release";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/ConvertUTF/.","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_convertUTF;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/build/ext_convertUTF.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		7FDA6956EAAB48B0B5088C56 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/lib/RelWithDebInfo";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",LWS_WITH_LIBUV,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/..","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/tinyxml2/.","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/xxhash/.","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/xxtea/.","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/clipper/.","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/edtaa3func/.","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/ConvertUTF/.","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/poly2tri/..","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/md5/..","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/unzip/.","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = external;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/Box2D/include","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/chipmunk/include","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/freetype2/include/ios/freetype2","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/bullet/include","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/bullet/include/bullet","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/jpeg/include/ios","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/openssl/include/ios","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/uv/include","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/webp/include/ios","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/websockets/include/ios","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/curl/include/ios","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/png/include/ios","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/glsl-optimizer/include","$(inherited)");
+				TARGET_TEMP_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/build/external.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		8139D9DA0A9548B6AEE022D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/lib/Debug";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/xxhash/.","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = ("   '-std=gnu99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxhash;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/build/ext_xxhash.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		83DF7F5F89D44D1CB9C2E88F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/lib/Debug";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/poly2tri/..","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_poly2tri;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/build/ext_poly2tri.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		87D769A8659043C5A4D8FF2F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/build";
+			};
+			name = RelWithDebInfo;
+		};
+		89FA9C8B6EA248ED9DB30989 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		8F47257073274936B856131A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/lib/RelWithDebInfo";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/poly2tri/..","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_poly2tri;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/build/ext_poly2tri.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		9A1A82A7DE0C4B8E965DADA4 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		AA0889C515E34D8CACA483E6 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/lib/MinSizeRel";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/xxtea/.","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxtea;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/build/ext_xxtea.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		AD438C6F1BD94C63B9A2A189 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		AFE7D9638A104159A76C0E8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/lib/Release";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/xxtea/.","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxtea;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/build/ext_xxtea.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		B2FE81ED76F74831BD8A89CD /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/lib/RelWithDebInfo";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/ConvertUTF/.","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = ("       -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_convertUTF;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/build/ext_convertUTF.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		C3BAF3569CFA43AEBD3ACD85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/build";
+			};
+			name = Release;
+		};
+		D476B96A62B345F2AA3474B9 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/lib/RelWithDebInfo";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/unzip/.","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_unzip;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/build/ext_unzip.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		DA3E9570D0E34818AA41FF05 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/lib/RelWithDebInfo";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/xxhash/.","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = ("       -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxhash;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/build/ext_xxhash.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		DBD321681194474BA150D6E7 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/lib/MinSizeRel";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",LWS_WITH_LIBUV,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/..","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/tinyxml2/.","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/xxhash/.","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/xxtea/.","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/clipper/.","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/edtaa3func/.","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/ConvertUTF/.","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/poly2tri/..","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/md5/..","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/unzip/.","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = external;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/Box2D/include","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/chipmunk/include","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/freetype2/include/ios/freetype2","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/bullet/include","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/bullet/include/bullet","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/jpeg/include/ios","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/openssl/include/ios","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/uv/include","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/webp/include/ios","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/websockets/include/ios","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/curl/include/ios","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/png/include/ios","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/glsl-optimizer/include","$(inherited)");
+				TARGET_TEMP_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/build/external.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		DD59B66BA16A46DB8F641067 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/lib/MinSizeRel";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/poly2tri/..","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_poly2tri;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/build/ext_poly2tri.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		DE6CC0C81D1843199DFC5D71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/lib/Release";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/xxhash/.","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxhash;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/build/ext_xxhash.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		E69DA0EB817B412498A9ABA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/lib/Debug";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",LWS_WITH_LIBUV,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/..","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/tinyxml2/.","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/xxhash/.","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/xxtea/.","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/clipper/.","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/edtaa3func/.","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/ConvertUTF/.","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/poly2tri/..","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/md5/..","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/unzip/.","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = external;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/Box2D/include","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/chipmunk/include","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/freetype2/include/ios/freetype2","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/bullet/include","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/bullet/include/bullet","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/jpeg/include/ios","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/openssl/include/ios","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/uv/include","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/webp/include/ios","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/websockets/include/ios","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/curl/include/ios","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/png/include/ios","/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/glsl-optimizer/include","$(inherited)");
+				TARGET_TEMP_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/build/external.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		E80ED01BF648400DBA3B9E90 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/lib/MinSizeRel";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/clipper/.","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_clipper;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/build/ext_clipper.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		EC778C2EB76848EABC0CD74C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/lib/Debug";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/xxtea/.","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxtea;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/build/ext_xxtea.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		EFD0576A3A724E6A85C2ED0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/lib/Release";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/recast/..","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_recast;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/build/ext_recast.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		F429079AF3D045BC83AA8FFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/lib/Debug";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/md5/..","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = ("   '-std=gnu99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_md5;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/build/ext_md5.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		F86EB1A3A2F54D909FBEF19C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/lib/Debug";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/edtaa3func/.","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_edtaa3func;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/build/ext_edtaa3func.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		FD771C20320A42B2AD647D5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/lib/Release";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/cocos2d/external/clipper/.","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_clipper;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/wenbo/Desktop/Bowen/spine-runtimes/spine-cocos2dx/example/build-ios/build/ext_clipper.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04A6D308592F48A885B0FF77 /* Build configuration list for PBXNativeTarget "ext_unzip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4011558FEE87487DAC482D62 /* Debug */,
+				518AB2304E1B49B9A869BA21 /* Release */,
+				3D21414ABCAC40F68AAE19EF /* MinSizeRel */,
+				D476B96A62B345F2AA3474B9 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		131C38E5732F45BA889FE5D8 /* Build configuration list for PBXNativeTarget "external" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E69DA0EB817B412498A9ABA7 /* Debug */,
+				0413F5CD595E45D29D8003E2 /* Release */,
+				DBD321681194474BA150D6E7 /* MinSizeRel */,
+				7FDA6956EAAB48B0B5088C56 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		18C1EC3FDF474262BC1AB048 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				527B382ED6974C6CB209C13E /* Debug */,
+				4ADCAEDC55824C23B925D332 /* Release */,
+				9A1A82A7DE0C4B8E965DADA4 /* MinSizeRel */,
+				68FFA655A69B4AECAE16BD04 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		23201AC62013491BBD221048 /* Build configuration list for PBXNativeTarget "ext_poly2tri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83DF7F5F89D44D1CB9C2E88F /* Debug */,
+				6D7B77B78B9847F69944A444 /* Release */,
+				DD59B66BA16A46DB8F641067 /* MinSizeRel */,
+				8F47257073274936B856131A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2DB1FEB038EC49BFB88BE551 /* Build configuration list for PBXNativeTarget "ext_xxhash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8139D9DA0A9548B6AEE022D0 /* Debug */,
+				DE6CC0C81D1843199DFC5D71 /* Release */,
+				6FA0DC266523445EA282F475 /* MinSizeRel */,
+				DA3E9570D0E34818AA41FF05 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4909B29A997D48F59573FEBF /* Build configuration list for PBXNativeTarget "ext_clipper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				025DDE2C17FE4CAFB12E99C5 /* Debug */,
+				FD771C20320A42B2AD647D5D /* Release */,
+				E80ED01BF648400DBA3B9E90 /* MinSizeRel */,
+				714324B0CEC24666BFCB045F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4E284054B2FC4E1ABE7E6434 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36A5505964234FCCBB5CD552 /* Debug */,
+				AD438C6F1BD94C63B9A2A189 /* Release */,
+				89FA9C8B6EA248ED9DB30989 /* MinSizeRel */,
+				0FF326EDB8FA47FA84634798 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		559A032C3107444ABA0067FA /* Build configuration list for PBXNativeTarget "ext_recast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E7D0948D2484AEDB82FFDF0 /* Debug */,
+				EFD0576A3A724E6A85C2ED0C /* Release */,
+				1659C51AC54745DD9B08DDA3 /* MinSizeRel */,
+				27C5E048206E4F739C5FF489 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		70A1E617702D4704BFFBA695 /* Build configuration list for PBXNativeTarget "ext_convertUTF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3335D8401E0340F8BF99A395 /* Debug */,
+				7F4AF50FA2ED4BD0A00C6EA8 /* Release */,
+				28F1ABEB39E24D0888518B9B /* MinSizeRel */,
+				B2FE81ED76F74831BD8A89CD /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7B4597E221504BEC9D6E1688 /* Build configuration list for PBXProject "external" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EF2585E3C7A4A6396AF428B /* Debug */,
+				C3BAF3569CFA43AEBD3ACD85 /* Release */,
+				55FBBE6D7D58436B99F36C95 /* MinSizeRel */,
+				87D769A8659043C5A4D8FF2F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		879B9FDBFACC4EB99071EDF5 /* Build configuration list for PBXNativeTarget "ext_tinyxml2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D5CB6FF289C4AE8935881C1 /* Debug */,
+				255C1549E1D6468B9B8E9AC6 /* Release */,
+				481F8432A32A43C198E9DAF4 /* MinSizeRel */,
+				41B856AB04434C64806F660C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8B4830463AE24594B3FD5B06 /* Build configuration list for PBXNativeTarget "ext_xxtea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC778C2EB76848EABC0CD74C /* Debug */,
+				AFE7D9638A104159A76C0E8B /* Release */,
+				AA0889C515E34D8CACA483E6 /* MinSizeRel */,
+				1E61EEED14B6428AA6683698 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C03075F24C6E4BEA9FFC38BF /* Build configuration list for PBXNativeTarget "ext_edtaa3func" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F86EB1A3A2F54D909FBEF19C /* Debug */,
+				57503D3B04DB4F309C1D73DD /* Release */,
+				61395C6ECEFA4BA197CCB212 /* MinSizeRel */,
+				04B75B026811481CA01B4452 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CDE23DBE278C4CE3B273532C /* Build configuration list for PBXNativeTarget "ext_md5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F429079AF3D045BC83AA8FFE /* Debug */,
+				0C2698266DE949C0A9AD34B6 /* Release */,
+				3D34CEFBACCE4B5DAE92F5FC /* MinSizeRel */,
+				2EC03C443C1949F1AAD617B8 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24B030C67A0D40439468EF79 /* Project object */;
+}
