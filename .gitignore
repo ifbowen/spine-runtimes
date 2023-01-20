@@ -38,12 +38,6 @@ spine-libgdx/spine-libgdx/bin
 spine-libgdx/spine-libgdx-tests/bin
 spine-libgdx/spine-skeletonviewer/bin
 
-spine-cocos2dx/dependencies
-spine-cocos2dx/example/cocos2dx.zip
-spine-cocos2dx/example/__MACOSX
-spine-cocos2dx/example/cocos2d
-spine-cocos2dx/example/proj.win32/spine-cocos2d-x.VC.opendb
-spine-cocos2dx/example/proj.win32/spine-cocos2d-x.VC.db
 xcuserdata/
 xcshareddata/
 
@@ -136,9 +130,6 @@ spine-ue4/SpineUE4.VC.VC.opendb
 *.iml
 */out/
 cmake-build-debug-visual-studio
-spine-cocos2dx/build-v4/
-spine-cocos2dx/example-v4/cocos2d
-spine-cocos2dx/example-v4/cocos2dx.zip
 
 spine-ts/spine-core/dist
 spine-ts/spine-canvas/dist
@@ -159,9 +150,3 @@ spine-libgdx/spine-libgdx/out
 spine-libgdx/spine-skeletonviewer/out
 spine-cocos2d-objc/cocos2d/
 cmake-build-release
-spine-cocos2dx/example-v4/build-ios
-spine-cocos2dx/example-v4/build-macos
-spine-cocos2dx/example/build-ios
-spine-cocos2dx/example/proj.android/app/.cxx
-spine-cocos2dx/example/build-win
-spine-cocos2dx/example/build-macos
